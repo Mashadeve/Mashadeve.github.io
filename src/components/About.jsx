@@ -14,7 +14,7 @@ const About = () => {
             </div>
             <div className="bg-gray-100 p-5 rounded-lg shadow-md">
                 <h3 className="text-xl font-semibold">Our Vision</h3>
-                <p className="mt-2">To be the industry leader in providing cutting-edge solutions that meet the evolving needs of our customers.</p>
+                <p className="mt-2">To be the industry leader in providing cutting-edge solutions that meet the evolving needs of our customers!</p>
             </div>
         </div>
     </section>
