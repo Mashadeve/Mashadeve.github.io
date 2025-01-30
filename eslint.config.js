@@ -24,6 +24,8 @@ export default [
       'react-refresh': reactRefresh,
     },
     rules: {
+      "react/react-in-jsx-scope": "off", // Reactia ei tarvitse importata JSX:ää varten React 17+
+      "react/jsx-uses-react": "off", // Estää turhat varoitukset
       ...js.configs.recommended.rules,
       ...react.configs.recommended.rules,
       ...react.configs['jsx-runtime'].rules,

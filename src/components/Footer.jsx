@@ -1,8 +1,7 @@
-import React from 'react';
 
 const Footer = () => {
     return (
-        <footer className="w-full text-center bg-gray-800 text-red-500 py-4 mt-auto">
+        <footer className="w-full text-center bg-[#212121] text-white py-4 mt-auto font-pixel">
             <p> Ⓒ Marmalade Softwares 2025 </p>
         </footer>
     );

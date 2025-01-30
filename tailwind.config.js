@@ -4,7 +4,23 @@ export default {
     './src/**/*.{html,js,jsx,ts,tsx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        retro: ['RetroGaming', 'sans-serif'], // lisää custom-fontti
+        vhs: ['VHSGothic', 'sans-serif'],     // VHS Gothic fontti
+        pixel: ['PixelOperator', 'sans-serif'],
+        player2: ['PressStart2P', 'sans-serif']
+      },
+      animation: {
+        fadeIn: 'fadeIn 0.5s forwards', // lisää fadeIn animaatio
+      },
+      keyframes: {
+        fadeIn: {
+          '0%': { opacity: '0' },
+          '100%': { opacity: '1' },
+        },
+      }
+    },
   },
   plugins: [],
 }
