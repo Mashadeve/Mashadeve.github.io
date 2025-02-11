@@ -18,8 +18,8 @@ const About = () => {
   }, []);
 
   return (
-    <div className="flex items-center justify-center text-white text-xl py-20 font-pixel">
-      <p className="text-xl font-pixel">
+    <div className="flex items-center justify-center text-white text-lg sm:text-xl py-20 font-pixel text-center">
+      <p className="text-lg sm:text-xl font-pixel">
         Under construction
         {dots.split('').map((dot, index) => (
           <span
