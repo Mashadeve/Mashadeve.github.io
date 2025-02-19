@@ -19,7 +19,10 @@ export default {
           '0%': { opacity: '0' },
           '100%': { opacity: '1' },
         },
-      }
+      },
+      boxShadow: {
+        'white-outline': '0 1px 2px 4px rgba(255,255,255,0.5)',
+      },
     },
   },
   plugins: [],

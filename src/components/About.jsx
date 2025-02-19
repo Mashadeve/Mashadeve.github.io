@@ -33,22 +33,9 @@ const About = () => {
           </span>
         ))}
       </p>
+      
     </div>
   );
 };
 
 export default About;
-
-
-
-
-
-// const About = () => {
-//     return (
-//     <div className="flex items-center justify-center text-white text-xl py-20 font-pixel">
-//         <p>Under construction...</p>
-//     </div>
-//     )
-// };
-
-// export default About;
