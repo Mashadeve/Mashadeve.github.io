@@ -6,7 +6,7 @@ const About = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setDots((prevDots) => {
-        if (prevDots.length < 5) {
+        if (prevDots.length <= 4) {
           return prevDots + '.';
         } else {
           return '';
